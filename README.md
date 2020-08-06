@@ -7,7 +7,7 @@ Download HTML as image
 ## Usage
 
 ```js
-import { downloadImage } from "owp.get-html-as-image";
+import downloadImage from "owp.get-html-as-image";
 
 downloadImage(container: dom|image, filename: string)
 ```
