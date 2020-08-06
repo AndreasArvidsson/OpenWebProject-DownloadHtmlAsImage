@@ -1,0 +1,42 @@
+{
+    "name": "owp.download-html-as-image",
+    "description": "Download HTML as image",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.config.js --port 9090 --open"
+    },
+    "keywords": [
+        "download",
+        "html",
+        "image",
+        "Open Web Project",
+        "owp"
+    ],
+    "author": "Andreas Arvidsson",
+    "license": "MIT",
+    "homepage": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage.git"
+    },
+    "bugs": {
+        "url": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage/issues"
+    },
+    "dependencies": {
+        "html2canvas": "latest",
+        "downloadjs": "latest"
+    },
+    "devDependencies": {
+        "webpack": "latest",
+        "webpack-cli": "latest",
+        "webpack-dev-server": "latest",
+        "html-webpack-plugin": "latest",
+        "babel-loader": "latest",
+        "@babel/core": "latest",
+        "@babel/preset-env": "latest",
+        "eslint-loader": "latest",
+        "eslint": "latest",
+        "babel-eslint": "latest"
+    }
+}
