@@ -1,12 +1,16 @@
 {
-    "name": "owp.download-html-as-image",
+    "name": "owp.get-html-as-image",
     "description": "Download HTML as image",
     "version": "1.0.0",
     "main": "index.js",
+    "files": [
+        "index.js"
+    ],
     "scripts": {
         "start": "webpack-dev-server --config webpack.config.js --port 9090 --open"
     },
     "keywords": [
+        "get",
         "download",
         "html",
         "image",
@@ -15,13 +19,13 @@
     ],
     "author": "Andreas Arvidsson",
     "license": "MIT",
-    "homepage": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage",
+    "homepage": "https://github.com/AndreasArvidsson/OpenWebProject-GetHtmlAsImage",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage.git"
+        "url": "https://github.com/AndreasArvidsson/OpenWebProject-GetHtmlAsImage.git"
     },
     "bugs": {
-        "url": "https://github.com/AndreasArvidsson/OpenWebProject-DownloadHtmlAsImage/issues"
+        "url": "https://github.com/AndreasArvidsson/OpenWebProject-GetHtmlAsImage/issues"
     },
     "dependencies": {
         "html2canvas": "latest",

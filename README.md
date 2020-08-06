@@ -1,12 +1,13 @@
-# OpenWebProject Download HTML as image
+# OpenWebProject Get HTML as image
+Download HTML as image
 
 ## Installation
-`npm install owp.download-html-as-image --save`
+`npm install owp.get-html-as-image --save`
 
 ## Usage
 
 ```js
-import { downloadImage } from "owp.download-html-as-image";
+import { downloadImage } from "owp.get-html-as-image";
 
 downloadImage(container: dom|image, filename: string)
 ```
